@@ -1,21 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import '@fontsource/roboto/300.css';
-import Button from '@mui/material/Button';
-
+import { NavBar } from './components/NavBar/NavBar';
+import { CenteredText } from './components/CenteredText/CenteredText';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button variant="contained">
-          Hello world
-        </Button>
-      </header>
+     <NavBar/>
+     <CenteredText/>
+      
+    
     </div>
   );
 }
