@@ -1,7 +1,27 @@
- .root{
-    flex-grow: 1;    
-  }
-  
-  .title{
-    flex-grow: 1;
-  } 
+.root {
+  flex-grow: 1;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Espacio entre botones */
+}
+
+.button-container button {
+  border: none; /* Eliminar borde */
+  cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+  padding: 10px 20px; /* Espaciado interno */
+}
+
+.button-container button:hover {
+  background-color: #f0eecd; /* Cambiar el color de fondo al pasar el ratón */
+}
